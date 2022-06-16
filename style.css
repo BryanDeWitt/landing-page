@@ -212,11 +212,15 @@ ul{
     cursor: pointer;
 }
 
-.footer-container{
+.footer-container .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(168, 167, 167);
+    background-color: #1F2937;
+    height: 50px;
+    color: white;
+
+    
 }
 
 
