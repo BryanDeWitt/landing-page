@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 15px;
+    flex: 1;
+}
+
+.links-left ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.first-body-container{
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+    padding-top: 50px;
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    max-width: 500px;
+    color: white;
+}
+
+.text-container h1{
+    font-size: 48px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.text-container p{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.text-container button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text-container button:hover{
+    cursor: pointer;
+    color: #3882F6;
+    background-color: white;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img{
+    max-height: 200px;
+    max-width: 500px;
+    min-width: 450px;
+    min-height: 150px;
+    border: solid 7px #3882F6;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+
+
+.images-of-recipes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe-photos-container h1{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    
+}
+
+.images-of-recipes img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 25px;
+    margin-bottom: 0;
+    border: solid 3px #3882F6;
+    border-radius: 5px;
+}
+
+.images-of-recipes figcaption{
+    font-size: 12px;
+    text-align: center;
+    width: 25ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.recipe-photos-container{
+    margin-bottom: 150px;
+}
+
+.frase-container{
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.frase p{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.frase h2{
+    text-align: end;
+}
+
+.blue-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.blue-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+    color: white;
+}
+
+.blue-box h1{
+    margin-bottom: 10px;
+}
+
+.blue-box a{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.blue-box button{
+    margin-top: 15px;
+    padding: 5px 30px;
+    color: white;
+    background-color: #3882F6;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blue-box button:hover{
+    color: #3882F6;
+    background-color: white;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 167, 167);
+}
+
+
+
+
+
