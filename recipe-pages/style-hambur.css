@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 235, 235);
+    color: rgb(126, 107, 1);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.go-back img{
+    height: auto;
+    width: 35px;
+    padding: 2px;
+    margin-right: 3px;
+}
+
+div .logo{
+    padding-left: 2px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.images-body{
+    background: url(https://cdn.pixabay.com/photo/2017/06/23/23/50/cow-2436354_960_720.jpg);
+   display: flex;
+   background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: space-between;
+   padding: 20px;
+   flex-wrap: wrap;
+}
+
+
+
+
+
+div.photos-container img{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin:  20px;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+div.photos-container{
+    max-width: 500px;
+    max-height: fit-content;
+    margin: auto;
+}
+
+div.title-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-size: 40px;
+    color: rgb(44, 29, 6);
+}
+
+.recipe-container{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(241, 236, 229);
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.list-of-ingredients{
+    margin: auto;
+}
+
+.list-of-ingredients ul{
+    font-size: 30px;
+    color: rgb(44, 29, 6);
+    font-weight: bold;
+    padding: 20px;
+}
+
+.list-of-ingredients li{
+    margin: 10px;
+}
+
+.images-of-ingredients{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+}
+
+.images-of-ingredients img{
+    height: 100px;
+    width: 100px;
+    border: solid 1px rgb(82, 81, 78);
+    border-radius: 100%;
+}
+
+.preparation{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    min-height: 300px;
+    font-weight: bold;
+}
+
+.preparation h1{
+    margin-bottom: 20px;
+    color: rgb(68, 62, 6);
+}
+
+
+.footer{
+    background-color: rgb(134, 133, 130);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
