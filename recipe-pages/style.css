@@ -1,0 +1,20 @@
+.image-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:1;
+}
+
+.image-container img{
+    max-height: 500px;
+    max-width: auto;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.image-container .h1{
+    font-size: 20px;
+    color: red;
+}
